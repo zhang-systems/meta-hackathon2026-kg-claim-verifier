@@ -1,0 +1,100 @@
+{"claim_id": 189892, "claim": "There were grammies won by Stadium Arcadium.", "label": "SUPPORTS", "atomic_claims": ["Stadium Arcadium won grammies"]}
+{"claim_id": 172473, "claim": "Matteo Renzi served as President of Italy.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Matteo Renzi served as President of Italy"]}
+{"claim_id": 108031, "claim": "Luis Fonsi is American.", "label": "REFUTES", "atomic_claims": ["Luis Fonsi is American"]}
+{"claim_id": 175658, "claim": "Fabian Nicieza died December 31, 1961.", "label": "REFUTES", "atomic_claims": ["Fabian Nicieza died on December 31, 1961."]}
+{"claim_id": 77119, "claim": "Highway to Heaven ran on Hallmark.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Highway to Heaven ran on Hallmark."]}
+{"claim_id": 11528, "claim": "Bones is loosely based on the life and writings of Kathy Reichs.", "label": "SUPPORTS", "atomic_claims": ["Bones is based on the life of Kathy Reichs.", "Bones is based on the writings of Kathy Reichs.", "The basis is loose."]}
+{"claim_id": 14375, "claim": "Youtube has been ranked by a company.", "label": "SUPPORTS", "atomic_claims": ["Youtube has been ranked.", "The ranker is a company."]}
+{"claim_id": 192789, "claim": "A staging area is only an unused piece of land.", "label": "REFUTES", "atomic_claims": ["A staging area is a piece of land.", "A staging area is unused."]}
+{"claim_id": 31885, "claim": "Gin is a drink.", "label": "SUPPORTS", "atomic_claims": ["Gin is a drink."]}
+{"claim_id": 157273, "claim": "Salman Rushdie was accused of plagiarizing a 1981 novel.", "label": "REFUTES", "atomic_claims": ["Salman Rushdie was accused of plagiarizing.", "The plagiarized work was a novel.", "The novel was from 1981."]}
+{"claim_id": 138995, "claim": "Google Search is the product of an American multinational manufacturing company.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Google Search is a product.", "Google Search is produced by a company.", "The company that produces Google Search is American.", "The company that produces Google Search is multinational.", "The company that produces Google Search is a manufacturing company."]}
+{"claim_id": 41419, "claim": "Liam Neeson has been nominated for a British Academy of Film and Television Arts award.", "label": "SUPPORTS", "atomic_claims": ["Liam Neeson has been nominated for an award.", "The award is a British Academy of Film and Television Arts award."]}
+{"claim_id": 126009, "claim": "Wish Upon is a supernatural horror thriller dog.", "label": "REFUTES", "atomic_claims": ["Wish Upon is supernatural", "Wish Upon is horror", "Wish Upon is thriller", "Wish Upon is a dog"]}
+{"claim_id": 59768, "claim": "Luis Fonsi was born in 1978.", "label": "SUPPORTS", "atomic_claims": ["Luis Fonsi was born in 1978."]}
+{"claim_id": 78882, "claim": "Francis I of France and Charles V, the Holy Roman Emperor, were rivals who engaged in wars against each other.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Charles V was the Holy Roman Emperor", "Francis I of France was a rival of Charles V", "Charles V was a rival of Francis I of France", "Francis I of France engaged in wars against Charles V", "Charles V engaged in wars against Francis I of France"]}
+{"claim_id": 7768, "claim": "Tottenham Hotspur F.C. is British.", "label": "SUPPORTS", "atomic_claims": ["Tottenham Hotspur F.C. is British"]}
+{"claim_id": 127306, "claim": "Ned Stark is the honorable lord of Winterfell in the book A Game of Thrones.", "label": "SUPPORTS", "atomic_claims": ["Ned Stark is honorable", "Ned Stark is lord of Winterfell", "Ned Stark is in the book A Game of Thrones"]}
+{"claim_id": 214975, "claim": "The first series of Sensitive Skin aired in mid-2007.", "label": "REFUTES", "atomic_claims": ["Sensitive Skin has a first series.", "The first series aired in mid-2007."]}
+{"claim_id": 132124, "claim": "James VI and I opposed the British colonization of the Americas.", "label": "NOT ENOUGH INFO", "atomic_claims": ["James VI and I opposed colonization.", "Colonization was British.", "Colonization was of the Americas."]}
+{"claim_id": 177972, "claim": "It is customary to only wear uniforms while Trick-or-Treating.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Wearing uniforms while Trick-or-Treating is customary.", "Wearing anything other than uniforms while Trick-or-Treating is not customary."]}
+{"claim_id": 24767, "claim": "Pearl Jam is a rock band.", "label": "SUPPORTS", "atomic_claims": ["Pearl Jam is a rock band."]}
+{"claim_id": 109582, "claim": "US Airways Flight 1549 did not have any people on board.", "label": "REFUTES", "atomic_claims": ["US Airways Flight 1549 did not have any people on board."]}
+{"claim_id": 30609, "claim": "Matt Bomer's first middle name is Staton.", "label": "SUPPORTS", "atomic_claims": ["Matt Bomer's first middle name is Staton."]}
+{"claim_id": 102818, "claim": "English people are descended from the Romans, as a result of migration.", "label": "REFUTES", "atomic_claims": ["English people are descended from the Romans.", "The descent was as a result of migration."]}
+{"claim_id": 63240, "claim": "Cleopatre is by Vivaldi.", "label": "REFUTES", "atomic_claims": ["Cleopatre is by Vivaldi."]}
+{"claim_id": 6390, "claim": "Spider-Man 2 is a store.", "label": "REFUTES", "atomic_claims": ["Spider-Man 2 is a store."]}
+{"claim_id": 132679, "claim": "L.A. Reid has served as the chairman of a record label.", "label": "SUPPORTS", "atomic_claims": ["L.A. Reid has served as chairman.", "L.A. Reid has served at a record label."]}
+{"claim_id": 46475, "claim": "DreamWorks Animation produced Trollhunters.", "label": "SUPPORTS", "atomic_claims": ["DreamWorks Animation produced Trollhunters"]}
+{"claim_id": 33675, "claim": "Topman has shops around the UK.", "label": "SUPPORTS", "atomic_claims": ["Topman has shops.", "Topman shops are around the UK."]}
+{"claim_id": 8870, "claim": "Pharmacology deals with the research, discovery, and characterization of turnips which show biological effects.", "label": "SUPPORTS", "atomic_claims": ["Pharmacology deals with research of turnips", "Pharmacology deals with discovery of turnips", "Pharmacology deals with characterization of turnips", "Turnips show biological effects"]}
+{"claim_id": 221252, "claim": "The Block (album) has only an unofficial single.", "label": "REFUTES", "atomic_claims": ["The Block is an album.", "The Block has one single.", "The single is unofficial."]}
+{"claim_id": 199764, "claim": "Tijuana is the largest city in the running for the 2020 Olympics.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Tijuana is a city.", "Tijuana is in the running for the 2020 Olympics.", "Tijuana is the largest city in the running for the 2020 Olympics."]}
+{"claim_id": 114659, "claim": "Jack Falahee has a middle name.", "label": "SUPPORTS", "atomic_claims": ["Jack Falahee has a middle name."]}
+{"claim_id": 82763, "claim": "AMGTV has Leverage.", "label": "NOT ENOUGH INFO", "atomic_claims": ["AMGTV has Leverage."]}
+{"claim_id": 180694, "claim": "Cary Elwes is a Methodist.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Cary Elwes is a Methodist."]}
+{"claim_id": 168053, "claim": "Larry Wilmore acts in Twilight.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Larry Wilmore acts in Twilight."]}
+{"claim_id": 177188, "claim": "Dub music is a genre of film.", "label": "REFUTES", "atomic_claims": ["Dub music is a genre of film."]}
+{"claim_id": 16880, "claim": "The Romani people have migrated.", "label": "SUPPORTS", "atomic_claims": ["The Romani people have migrated."]}
+{"claim_id": 60444, "claim": "No Country for Old Men was chosen as the highest acclaimed of 2007 by the National Board of Review.", "label": "SUPPORTS", "atomic_claims": ["No Country for Old Men was chosen as the highest acclaimed.", "No Country for Old Men was chosen by the National Board of Review.", "No Country for Old Men was chosen for 2007."]}
+{"claim_id": 31728, "claim": "Medical school around the world vary in admission structure.", "label": "SUPPORTS", "atomic_claims": ["Medical schools are around the world.", "Medical schools have admission structure.", "Admission structure varies."]}
+{"claim_id": 162661, "claim": "Norman Bates was created exclusively by J.K. Rowling.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Norman Bates was created by J.K. Rowling.", "Norman Bates was not created by anyone other than J.K. Rowling."]}
+{"claim_id": 132241, "claim": "Dev Patel starred in Inception.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Dev Patel starred in Inception."]}
+{"claim_id": 227085, "claim": "Katy Perry's song Roar (song) came out for the first time on her fifth studio album.", "label": "REFUTES", "atomic_claims": ["Roar is a song.", "Roar is by Katy Perry.", "Katy Perry has a fifth studio album.", "Roar was first released on Katy Perry's fifth studio album."]}
+{"claim_id": 201816, "claim": "Dakota Fanning was involved with a film called Dracula.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Dakota Fanning was involved with a film.", "The film is called Dracula."]}
+{"claim_id": 220442, "claim": "The Church of Jesus Christ of Latter-day Saints involves money.", "label": "SUPPORTS", "atomic_claims": ["The Church of Jesus Christ of Latter-day Saints involves money."]}
+{"claim_id": 150192, "claim": "Nymphomaniac (film) is not part of a trilogy along with Antichrist.", "label": "REFUTES", "atomic_claims": ["Nymphomaniac is a film", "Nymphomaniac is not part of a trilogy along with Antichrist"]}
+{"claim_id": 192895, "claim": "\"Love the Way You Lie\" is Eminem's single.", "label": "NOT ENOUGH INFO", "atomic_claims": ["\"Love the Way You Lie\" is a single.", "\"Love the Way You Lie\" is by Eminem."]}
+{"claim_id": 18496, "claim": "Maria Theresa was the daughter of Emperor Charles VI.", "label": "SUPPORTS", "atomic_claims": ["Maria Theresa was the daughter of Charles VI.", "Charles VI was Emperor."]}
+{"claim_id": 195077, "claim": "Albert S. Ruddy is regarded as a television producer.", "label": "SUPPORTS", "atomic_claims": ["Albert S. Ruddy is regarded as a television producer."]}
+{"claim_id": 66893, "claim": "Antigua and Barbuda was named after an invocation of the Virgin Mary.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Antigua and Barbuda was named after an invocation.", "The invocation is of the Virgin Mary."]}
+{"claim_id": 192831, "claim": "Ian Brennan was married in 1978.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Ian Brennan was married.", "Ian Brennan's marriage was in 1978."]}
+{"claim_id": 30790, "claim": "Grease was a cinematic work.", "label": "SUPPORTS", "atomic_claims": ["Grease was a cinematic work"]}
+{"claim_id": 22744, "claim": "The Silver Surfer is a fictional character.", "label": "SUPPORTS", "atomic_claims": ["Silver Surfer is fictional.", "Silver Surfer is a character."]}
+{"claim_id": 150630, "claim": "TV Choice runs only on weekends.", "label": "REFUTES", "atomic_claims": ["TV Choice runs only on weekends."]}
+{"claim_id": 168535, "claim": "Rick Yune was on a series that cancelled on December 12, 2016.", "label": "SUPPORTS", "atomic_claims": ["Rick Yune was on a series.", "That series cancelled on December 12, 2016."]}
+{"claim_id": 202979, "claim": "Lockheed Martin's CEO is now a person born in December.", "label": "SUPPORTS", "atomic_claims": ["Lockheed Martin has a CEO.", "The CEO is current.", "The CEO is a person.", "The CEO was born in December."]}
+{"claim_id": 80451, "claim": "Fantastic Four (2005 film) was released on the 8th.", "label": "SUPPORTS", "atomic_claims": ["Fantastic Four (2005 film) was released on the 8th."]}
+{"claim_id": 130614, "claim": "Ron Weasley is only part of the Game of Thrones series.", "label": "REFUTES", "atomic_claims": ["Ron Weasley is part of the Game of Thrones series.", "Ron Weasley is part of nothing other than the Game of Thrones series."]}
+{"claim_id": 205738, "claim": "First Motion Picture Unit produced zero films.", "label": "REFUTES", "atomic_claims": ["First Motion Picture Unit produced zero films"]}
+{"claim_id": 146923, "claim": "Daag was released in 1974.", "label": "REFUTES", "atomic_claims": ["Daag was released in 1974"]}
+{"claim_id": 212780, "claim": "Harvard University is the first University in the U.S.", "label": "SUPPORTS", "atomic_claims": ["Harvard University is a University.", "Harvard University is in the U.S.", "Harvard University is first."]}
+{"claim_id": 70702, "claim": "Birmingham is a suburban borough.", "label": "REFUTES", "atomic_claims": ["Birmingham is a borough.", "Birmingham is suburban."]}
+{"claim_id": 40808, "claim": "The Los Angeles Rams is a team that Terry Crews played for.", "label": "SUPPORTS", "atomic_claims": ["The Los Angeles Rams is a team.", "Terry Crews played for the Los Angeles Rams."]}
+{"claim_id": 17248, "claim": "Mad Max: Fury Road is an action film.", "label": "SUPPORTS", "atomic_claims": ["Mad Max: Fury Road is a film.", "Mad Max: Fury Road is action."]}
+{"claim_id": 102872, "claim": "Pharmacology is a science.", "label": "SUPPORTS", "atomic_claims": ["Pharmacology is a science."]}
+{"claim_id": 11178, "claim": "Shinji Mikami was the director of Dino Crisis.", "label": "SUPPORTS", "atomic_claims": ["Shinji Mikami was the director of Dino Crisis."]}
+{"claim_id": 185776, "claim": "Melbourne is where the latest ceremony of the Logie Awards was held at.", "label": "SUPPORTS", "atomic_claims": ["There is a latest ceremony of the Logie Awards.", "The latest ceremony of the Logie Awards was held in Melbourne."]}
+{"claim_id": 8148, "claim": "Kung Fu Panda made $60.2 million during its opening weekend.", "label": "SUPPORTS", "atomic_claims": ["Kung Fu Panda made $60.2 million", "The $60.2 million was made during opening weekend", "The opening weekend was Kung Fu Panda's"]}
+{"claim_id": 52278, "claim": "Folklore includes jokes.", "label": "SUPPORTS", "atomic_claims": ["Folklore includes jokes"]}
+{"claim_id": 67489, "claim": "Tim Roth is Spider-Man.", "label": "REFUTES", "atomic_claims": ["Tim Roth is Spider-Man."]}
+{"claim_id": 164983, "claim": "Polar bears depend on lakes as their main food source.", "label": "REFUTES", "atomic_claims": ["Polar bears depend on lakes.", "Polar bears' main food source is lakes."]}
+{"claim_id": 105142, "claim": "A near-Earth object is abbreviated as Acton.", "label": "NOT ENOUGH INFO", "atomic_claims": ["A near-Earth object is abbreviated as Acton."]}
+{"claim_id": 141899, "claim": "Lizzy Caplan bought the DVD collectible for the show The Class.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Lizzy Caplan bought the DVD collectible.", "The DVD collectible is for The Class.", "The Class is a show."]}
+{"claim_id": 153240, "claim": "The Maltese language is a Slavic language.", "label": "NOT ENOUGH INFO", "atomic_claims": ["The Maltese language is a Slavic language."]}
+{"claim_id": 229303, "claim": "A working animal is trained to perform tasks.", "label": "SUPPORTS", "atomic_claims": ["The animal is working.", "The animal is trained.", "The training is to perform tasks."]}
+{"claim_id": 110221, "claim": "Knowledge and research in multiple fields is incorporated with Speech recognition.", "label": "SUPPORTS", "atomic_claims": ["Knowledge is in multiple fields", "Research is in multiple fields", "Knowledge is incorporated with Speech recognition", "Research is incorporated with Speech recognition"]}
+{"claim_id": 205270, "claim": "The 1994 Rwanda genocide in Rwanda involved puppies only.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Rwanda genocide occurred in 1994.", "Rwanda genocide occurred in Rwanda.", "Rwanda genocide involved puppies.", "Rwanda genocide involved nothing other than puppies."]}
+{"claim_id": 20362, "claim": "Absinthe is a liquor.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Absinthe is a liquor."]}
+{"claim_id": 225228, "claim": "Danielle Cormack is a commercial actress.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Danielle Cormack is a commercial actress"]}
+{"claim_id": 210212, "claim": "GLOW (TV series) is the highest grossing show on Netflix.", "label": "REFUTES", "atomic_claims": ["GLOW is a TV series", "GLOW is a show", "GLOW is on Netflix", "GLOW is the highest grossing"]}
+{"claim_id": 173735, "claim": "Earl Scruggs was involved in bluegrass music for many years.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Earl Scruggs was involved in bluegrass music.", "Earl Scruggs was involved for many years."]}
+{"claim_id": 122281, "claim": "Samsung has developed and sold phones.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Samsung has developed phones.", "Samsung has sold phones."]}
+{"claim_id": 205638, "claim": "St. Anger is an EP.", "label": "NOT ENOUGH INFO", "atomic_claims": ["St. Anger is an EP."]}
+{"claim_id": 185389, "claim": "CHiPs is based on a TV series that is also names CHiPs.", "label": "SUPPORTS", "atomic_claims": ["CHiPs is based on a TV series.", "The TV series is also named CHiPs."]}
+{"claim_id": 193849, "claim": "Barry Van Dyke is an actor and the son of an actor.", "label": "SUPPORTS", "atomic_claims": ["Barry Van Dyke is an actor.", "Barry Van Dyke is a son.", "A parent of Barry Van Dyke is an actor."]}
+{"claim_id": 10908, "claim": "Vampires often visited lovers.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Vampires visited lovers.", "Vampires visited often."]}
+{"claim_id": 62419, "claim": "The Punisher has a protagonist.", "label": "NOT ENOUGH INFO", "atomic_claims": ["The Punisher has a protagonist"]}
+{"claim_id": 166840, "claim": "Drake Bell released A Reminder.", "label": "SUPPORTS", "atomic_claims": ["Drake Bell released A Reminder."]}
+{"claim_id": 63201, "claim": "Mary of Teck was never queen mother.", "label": "REFUTES", "atomic_claims": ["Mary of Teck was never queen mother."]}
+{"claim_id": 68914, "claim": "Colombiana was released in May of 2011.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Colombiana was released in May.", "Colombiana was released in 2011."]}
+{"claim_id": 212216, "claim": "Gory Guerrero wrestled professionally.", "label": "SUPPORTS", "atomic_claims": ["Gory Guerrero wrestled professionally."]}
+{"claim_id": 206990, "claim": "Punch-Drunk Love features Jeremy Blake's dog.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Punch-Drunk Love features a dog.", "The dog is owned by Jeremy Blake."]}
+{"claim_id": 74007, "claim": "Duff McKagan is Texan.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Duff McKagan is Texan."]}
+{"claim_id": 64308, "claim": "The Stanford prison experiment was an investigation into the causes of difficulties between guards and civilians.", "label": "NOT ENOUGH INFO", "atomic_claims": ["The Stanford prison experiment was an investigation.", "The investigation was into causes.", "The causes were of difficulties.", "The difficulties were between guards and civilians."]}
+{"claim_id": 195219, "claim": "Kevin Bacon played a role in The Woodsman.", "label": "SUPPORTS", "atomic_claims": ["Kevin Bacon played a role", "That role was in The Woodsman"]}
+{"claim_id": 141652, "claim": "Laura Robson won a championship.", "label": "NOT ENOUGH INFO", "atomic_claims": ["Laura Robson won a championship."]}
+{"claim_id": 168040, "claim": "Larry Wilmore is American.", "label": "SUPPORTS", "atomic_claims": ["Larry Wilmore is American"]}
+{"claim_id": 223668, "claim": "Ludwig van Beethoven was born in the United States.", "label": "REFUTES", "atomic_claims": ["Ludwig van Beethoven was born in the United States."]}
+{"claim_id": 205735, "claim": "First Motion Picture Unit is an American company.", "label": "NOT ENOUGH INFO", "atomic_claims": ["First Motion Picture Unit is a company.", "First Motion Picture Unit is American."]}
+{"claim_id": 118844, "claim": "Bhagat Singh was an American.", "label": "REFUTES", "atomic_claims": ["Bhagat Singh was an American."]}
