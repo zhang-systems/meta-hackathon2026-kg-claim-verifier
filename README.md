@@ -2,21 +2,21 @@
 
 Verify AI answers against Wikidata triples. Built for the Meta Global AI Developer Hackathon (Build for Your World).
 
-AI answers sound confident even when they are wrong. This verifier checks a claim the way a fact-checker would: split it into atomic facts, fetch evidence triples from Wikidata, and judge each fact only from those triples. If the evidence is too weak, it says NOT ENOUGH INFO instead of guessing.
+## Situation
 
-## How it works
+AI answers sound confident even when they are wrong. A claim like "Stadium Arcadium won Grammys" needs checking against evidence, not against the same model's memory. I wanted a checker that shows its evidence: every verdict must trace back to triples from a knowledge graph, and when the evidence is too weak, the checker must say so instead of guessing.
 
-1. **Sample.** 100 claims from FEVER (labelled_dev, deduped by id, seed 42).
-2. **Split.** Muse Spark splits each claim into atomic facts (189 total, 1.89 per claim).
-3. **Fetch evidence.** For each atomic fact, search Wikidata, take the best-matching entity, and keep the 5 triples most relevant to the fact (word overlap). Identifier triples (external IDs) are filtered out.
-4. **Verify.** Muse Spark judges each fact SUPPORTS / REFUTES / NOT ENOUGH INFO using only the triples given. Facts judged NOT ENOUGH INFO go to Muse Wonder for a second review under the same triples-only rule.
-5. **Score.** Claim verdicts aggregate from atomic verdicts (all SUPPORTS -> SUPPORTS; any REFUTES -> REFUTES; else NOT ENOUGH INFO) and are compared with the FEVER labels verbatim.
+## Task
 
-## Results (100-claim sample, preliminary)
+I set out to build a verifier that takes a claim, splits it into atomic facts, fetches evidence triples from Wikidata for each fact, and judges each fact only from those triples. I scoped it to a 100-claim sample from FEVER with honest scoring against the gold labels, using Meta models, during the hackathon building period.
 
-Overall: 39/100 (0.390). SUPPORTS: 3/42. NOT ENOUGH INFO: 30/33. REFUTES: 6/25.
+## Action
 
-171 of 189 facts retrieved at least one triple; 169 of 189 facts went to second review. The verifier is conservative by design: it answers NOT ENOUGH INFO when the evidence is weak. The bottleneck is retrieval, not the judge model: Wikidata entities return broad triples, and content triples do not always reach the top 5. When the right triple is retrieved, the mechanism works. Example: "There were grammies won by Stadium Arcadium" verifies via `award received | Grammy Award for Best Rock Album`.
+I designed and built a four-step pipeline. First, I sampled 100 claims from FEVER (labelled_dev, deduped by id, seed 42). Second, I used Muse Spark to split each claim into atomic facts (189 total, 1.89 per claim). Third, I fetched evidence from Wikidata for each fact: search for the best-matching entity, then keep the 5 triples most relevant to the fact by word overlap, with identifier triples (external IDs) filtered out. Fourth, I verified each fact with Muse Spark under a triples-only rule, and sent every fact judged NOT ENOUGH INFO to Muse Wonder for a second review under the same rule. I aggregated claim verdicts from atomic verdicts (all SUPPORTS -> SUPPORTS; any REFUTES -> REFUTES; else NOT ENOUGH INFO). I built it with Muse Code, and I checked each step against its own output before moving on. Two fixes came out of those checks: relevance ranking (the award triple for Stadium Arcadium was missing in the first run) and the identifier filter.
+
+## Result
+
+On the 100-claim sample, the verifier scored 39/100 (0.390): SUPPORTS 3/42, NOT ENOUGH INFO 30/33, REFUTES 6/25. 171 of 189 facts retrieved at least one triple, and 169 of 189 facts went to second review. The result is honest about the bottleneck: the verifier is conservative by design and answers NOT ENOUGH INFO when the evidence is weak, and retrieval noise (broad and category triples crowding out content triples) limits recall on SUPPORTS and REFUTES. When the right triple is retrieved, the mechanism works: "There were grammies won by Stadium Arcadium" verifies via `award received | Grammy Award for Best Rock Album`. Refutation is the weakest part, because knowledge-graph triples rarely carry negative evidence. These are preliminary results on a 100-claim sample.
 
 ## Run it
 
@@ -47,8 +47,4 @@ scripts/: sample_fever.py, split_claims.py, fetch_evidence.py, verify_claims.py.
 
 ## Data and models
 
-Claims: FEVER (Thorne et al., 2018), CC BY-SA 3.0. Sample: 100 claims, seed 42. Labels: SUPPORTS 42 / NOT ENOUGH INFO 33 / REFUTES 25. Evidence: Wikidata (CC0), via the public wbsearchentities and wbgetclaims APIs. No triples are invented; facts with no evidence get NOT ENOUGH INFO. Models (Meta): Muse Spark 1.3 (muse-spark-1.3) for splitting and first verification; Muse Wonder 1.0 (muse-wonder-1.0) for second review of hard cases. All code in this repo was written during the hackathon building period (Oct 26 - Nov 4, 2026).
-
-## Limitations
-
-100-claim sample; results are preliminary. Retrieval is the bottleneck: broad and category triples crowd out content triples, and refutation especially suffers because knowledge-graph triples rarely carry negative evidence. The verifier judges only from the triples given; it does not use outside knowledge.
+Claims: FEVER (Thorne et al., 2018), CC BY-SA 3.0. Labels: SUPPORTS 42 / NOT ENOUGH INFO 33 / REFUTES 25. Evidence: Wikidata (CC0), via the public wbsearchentities and wbgetclaims APIs. No triples are invented; facts with no evidence get NOT ENOUGH INFO. Models (Meta): Muse Spark 1.3 (muse-spark-1.3) for splitting and first verification; Muse Wonder 1.0 (muse-wonder-1.0) for second review of hard cases. All code in this repo was written during the hackathon building period (Oct 26 - Nov 4, 2026).
