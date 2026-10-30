@@ -54,3 +54,7 @@ scripts/: sample_fever.py, split_claims.py, fetch_evidence.py, verify_claims.py.
 ## Data and models
 
 Claims: FEVER (Thorne et al., 2018), CC BY-SA 3.0. Labels: SUPPORTS 42 / NOT ENOUGH INFO 33 / REFUTES 25. Evidence: Wikidata (CC0), via the public wbsearchentities and wbgetclaims APIs. No triples are invented; facts with no evidence get NOT ENOUGH INFO. Models (Meta): Muse Spark 1.3 (muse-spark-1.3) for splitting and first verification; Muse Wonder 1.0 (muse-wonder-1.0) for second review of hard cases. All code in this repo was written during the hackathon building period (Oct 26 - Nov 4, 2026).
+
+## Poster
+
+![Poster](poster.png)
