@@ -2,6 +2,12 @@
 
 Verify AI answers against Wikidata triples. Built for the Meta Global AI Developer Hackathon (Build for Your World).
 
+## Built with Meta models
+
+- [Muse Spark 1.3](https://dev.meta.ai/models/muse-spark) (muse-spark-1.3) via the Meta Model API: claim splitting and first verification.
+- [Muse Wonder 1.0](https://dev.meta.ai/models/muse-wonder) (muse-wonder-1.0) via the Meta Model API: second review of hard cases.
+- [Muse Code](https://dev.meta.ai/lp/muse-code): coding agent used to build this repo.
+
 ## Situation
 
 AI answers sound confident even when they are wrong. A claim like "Stadium Arcadium won Grammys" needs checking against evidence, not against the same model's memory. I wanted a checker that shows its evidence: every verdict must trace back to triples from a knowledge graph, and when the evidence is too weak, the checker must say so instead of guessing.
