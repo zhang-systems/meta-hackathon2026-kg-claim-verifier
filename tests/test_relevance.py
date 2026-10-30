@@ -59,6 +59,22 @@ class CacheTest(unittest.TestCase):
             fe._label_cache.clear()
 
 
+class FilterTest(unittest.TestCase):
+    def test_identifier_props_dropped(self):
+        for prop in ["Metacritic ID",
+                     "Encyclopaedia Britannica Online ID",
+                     "VIAF identifier",
+                     "GRIDID",
+                     "imdb id"]:
+            self.assertTrue(fe._is_identifier_prop(prop), prop)
+
+    def test_content_props_kept(self):
+        for prop in ["award received", "performer", "position held",
+                     "country of citizenship", "date of birth",
+                     "instance of", "genre"]:
+            self.assertFalse(fe._is_identifier_prop(prop), prop)
+
+
 class OrderTest(unittest.TestCase):
     def test_main_writes_input_order(self):
         with tempfile.TemporaryDirectory() as tmp:

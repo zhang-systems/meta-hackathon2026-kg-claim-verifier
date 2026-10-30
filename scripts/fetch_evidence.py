@@ -182,6 +182,20 @@ def rank_triples(fact, labeled):
     return [triple for _, _, triple in scored[:5]]
 
 
+_ID_WORD = re.compile(r"\bID\b", re.IGNORECASE)
+
+
+def _is_identifier_prop(prop_label):
+    # True for external-id properties, e.g. "Metacritic ID" or "GRIDID"
+    text = (prop_label or "").strip()
+    lowered = text.lower()
+    return (
+        "identifier" in lowered
+        or lowered.endswith("id")
+        or _ID_WORD.search(text) is not None
+    )
+
+
 def evidence_for(fact):
     # Search Wikidata for the main entity of the fact
     match = find_entity(fact)
@@ -225,12 +239,14 @@ def evidence_for(fact):
     if not picks:
         return []
 
-    # Fetch labels, build readable triples, keep the 5 most relevant
+    # Fetch labels, drop identifier triples, keep the 5 most relevant
     labels = labels_for(need)
     subject = labels.get(qid, match.get("label", qid))
     labeled = []
     for pid, val in picks:
         prop = labels.get(pid, pid)
+        if _is_identifier_prop(prop):
+            continue
         value = labels.get(val, val)
         labeled.append((prop, value, f"{subject} | {prop} | {value}"))
     return rank_triples(fact, labeled)
